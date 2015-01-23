@@ -9,8 +9,7 @@ Siempre puedes encontrar la última versión estable por el buscador de plugins 
 
 #Información de proyecto
 
-Este proyecto es un clon del bitbucket del autor Cristian Tala Sánche (https://bitbucket.org/ctala/) que ha sido llevado a Github para quienes preferimos esta plataforma.
-
+Este proyecto es un clon del bitbucket del autor Cristian Tala Sánchez (https://bitbucket.org/ctala/) que ha sido llevado a Github para quienes preferimos esta plataforma.  La discusión oficial de este tema esta en http://www.cristiantala.cl/nueva-version-del-plugin-woocommerce-webpayplus-liberada/
 Branches:
 
  - Master - Proyecto original siempre actualizado a la version oficinal de "ctala"

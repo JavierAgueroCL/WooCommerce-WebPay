@@ -1,0 +1,121 @@
+[23-Jan-2014 18:40:05 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 240
+[23-Jan-2014 18:40:06 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://www.pandora.cl/?page_id=14
+[23-Jan-2014 18:40:06 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/wp-content/uploads/webpay-comun/dato20140123064006.log para guardar los datos
+[23-Jan-2014 18:40:06 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1299000;240 en /var/www/wp-content/uploads/webpay-comun/dato20140123064006.log
+[23-Jan-2014 18:40:06 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[23-Jan-2014 18:40:06 UTC] [WEBPAY - FORM]	-> Argumentos
+[23-Jan-2014 18:40:06 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1299000
+    [TBK_ORDEN_COMPRA] => 240
+    [TBK_ID_SESION] => 20140123064006
+    [TBK_URL_EXITO] => http://www.pandora.cl/?page_id=14&status=success&order=240&key=order_52e1620557ecc
+    [TBK_URL_FRACASO] => http://www.pandora.cl/?page_id=14&status=failure&order=240&key=order_52e1620557ecc
+)
+
+[23-Jan-2014 18:40:34 UTC] [XT_COMPRA]	-> Iniciando xt_compra
+[23-Jan-2014 18:40:34 UTC] [XT_COMPRA]	-> pending
+[23-Jan-2014 18:40:34 UTC] [XT_COMPRA]	-> ORDEN EXISTENTE 240
+[23-Jan-2014 18:40:34 UTC] [XT_COMPRA]	-> ORDEN DE COMPRA NO PAGADA (pending). Se procede con el pago de la orden 240
+[23-Jan-2014 18:40:38 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[23-Jan-2014 18:40:38 UTC] [WEBPAY - RESPONSE]	-> START WEBPAY RESPONSE ARRAY REQUEST
+[23-Jan-2014 18:40:38 UTC] Array
+(
+    [page_id] => 14
+    [status] => success
+    [order] => 240
+    [key] => order_52e1620557ecc
+    [TBK_ID_SESION] => 20140123064006
+    [TBK_ORDEN_COMPRA] => 240
+)
+
+[23-Jan-2014 18:40:38 UTC] [WEBPAY - RESPONSE]	-> END WEBPAY RESPONSE ARRAY REQUEST
+[23-Jan-2014 18:40:38 UTC] 	-> INSERTANDO EN LA BDD
+[23-Jan-2014 18:40:39 UTC] 	-> idOrden : 
+[23-Jan-2014 18:40:39 UTC] 	-> 240
+[23-Jan-2014 18:40:39 UTC] 	-> TBK:
+[23-Jan-2014 18:40:39 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => TBK_ORDEN_COMPRA
+            [1] => 240
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => TBK_TIPO_TRANSACCION
+            [1] => TR_NORMAL
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => TBK_RESPUESTA
+            [1] => 0
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => TBK_MONTO
+            [1] => 1299000
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => TBK_CODIGO_AUTORIZACION
+            [1] => 693999
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => TBK_FINAL_NUMERO_TARJETA
+            [1] => 6623
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => TBK_FECHA_CONTABLE
+            [1] => 0123
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => TBK_FECHA_TRANSACCION
+            [1] => 0123
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => TBK_HORA_TRANSACCION
+            [1] => 190822
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => TBK_ID_TRANSACCION
+            [1] => 502407847
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => TBK_TIPO_PAGO
+            [1] => VN
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => TBK_NUMERO_CUOTAS
+            [1] => 0
+        )
+
+)
+
+[23-Jan-2014 18:40:39 UTC] 	-> TERMINANDO INSERSIÓN
+[23-Jan-2014 18:40:39 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[23-Jan-2014 18:40:39 UTC] [WEBPAY-THANKYOU]	-> Entrando al ThankYouPage
+[23-Jan-2014 18:40:39 UTC] [WEBPAY-THANKYOU]	-> ORDEN EXISTENTE
+[23-Jan-2014 18:40:39 UTC] [WEBPAY-THANKYOU]	-> La transacción no debería ser fallida, se verifica
+[23-Jan-2014 18:40:39 UTC] [WEBPAY-THANKYOU]	-> 	 -> El pago de la orden fue con WebPay
+[23-Jan-2014 18:40:39 UTC] [WEBPAY-THANKYOU]	-> Saliendo al ThankYouPage
+

@@ -10,6 +10,7 @@ Siempre puedes encontrar la última versión estable por el buscador de plugins 
 #Información de proyecto
 
 Este proyecto es un clon del bitbucket del autor Cristian Tala Sánchez (https://bitbucket.org/ctala/) que ha sido llevado a Github para quienes preferimos esta plataforma.  La discusión oficial de este tema esta en http://www.cristiantala.cl/nueva-version-del-plugin-woocommerce-webpayplus-liberada/
+
 Branches:
 
  - Master - Proyecto original siempre actualizado a la version oficinal de "ctala"
@@ -22,8 +23,8 @@ Branches:
 
  - Este plugin funciona con las últimas versiones de woocommerce. (Version 2.1.*)
  - Este plugin ya no funciona con las versiones anteriores de Woocommerce.
-## Descarga ##
-
+ 
+#Descarga
 
 Si quieres editarlo recomiendo descargarlo con git:
 
@@ -93,7 +94,7 @@ OJO,PESTAÑA y CEJA. La configuración siguiente es para un ambiente de certific
     PREFIJO_CONF_TR = HTML_
     HTML_TR_NORMAL =  http://DIRECCIONDETUPAGINA/?wc-api=WC_Gateway_Webpayplus&xt_compra
 
-CHANGELOG
+**CHANGELOG**
 
  - V3.0.5 : Se arregla problema con los permalinks.
  - V3.0.4 : Se agrega la palabra débito al mensaje de error. Se agrega el nombre del cliente a la tabla de información extra de la transacción.
